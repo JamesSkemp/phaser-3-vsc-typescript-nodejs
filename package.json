@@ -14,7 +14,7 @@
 	},
 	"homepage": "https://github.com/JamesSkemp/phaser-starter-templates",
 	"dependencies": {
-		"phaser": "^3.6.0"
+		"phaser": "^3.8.0"
 	},
 	"devDependencies": {
 		"browserify": "^14.5.0",
