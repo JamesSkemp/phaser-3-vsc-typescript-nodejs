@@ -15,7 +15,7 @@ export default class MainMenu extends Phaser.Scene {
 		this.add.image(this.cameras.main.centerX, this.cameras.main.centerY, 'Phaser-Logo-Small');
 	}
 
-	update() : void {
+	update(): void {
 
 	}
 }
