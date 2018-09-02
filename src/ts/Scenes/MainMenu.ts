@@ -1,8 +1,8 @@
-export default class MainMenuScene extends Phaser.Scene {
+export default class MainMenu extends Phaser.Scene {
 	/**
 	 * Unique name of the scene.
 	 */
-	public static Name: string = "MainMenuScene";
+	public static Name: string = "MainMenu";
 
 	preload(): void {
 		this.load.path = 'assets/';

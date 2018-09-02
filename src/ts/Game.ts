@@ -1,12 +1,12 @@
 import * as phaser from "phaser";
-import MainMenuScene from "./Scenes/MainMenuScene";
+import MainMenu from "./Scenes/MainMenu";
 
 const gameConfig: GameConfig = {
 	width: 800,
 	height: 600,
 	type: Phaser.AUTO,
 	parent: "content",
-	title: "Starter Project for Phaser 3 with Visual Studio Code, TypeScript, and NodeJS"
+	title: "Battle INF, done with Visual Studio Code, TypeScript, and NodeJS"
 };
 
 export default class Game extends Phaser.Game {
@@ -15,8 +15,8 @@ export default class Game extends Phaser.Game {
 
 		super(config);
 
-		this.scene.add(MainMenuScene.Name, MainMenuScene);
-		this.scene.start(MainMenuScene.Name);
+		this.scene.add(MainMenu.Name, MainMenu);
+		this.scene.start(MainMenu.Name);
 	}
 };
 
