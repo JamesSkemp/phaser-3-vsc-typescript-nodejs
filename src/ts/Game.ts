@@ -1,6 +1,7 @@
 import * as phaser from "phaser";
-import MainMenu from "./Scenes/MainMenu";
+import Boot from "./Scenes/Boot";
 import Preloader from "./Scenes/Preloader";
+import MainMenu from "./Scenes/MainMenu";
 
 const gameConfig: GameConfig = {
 	width: 800,
@@ -16,9 +17,10 @@ export default class Game extends Phaser.Game {
 
 		super(config);
 
+		this.scene.add(Boot.Name, Boot);
 		this.scene.add(Preloader.Name, Preloader);
 		this.scene.add(MainMenu.Name, MainMenu);
-		this.scene.start(Preloader.Name);
+		this.scene.start(Boot.Name);
 	}
 };
 
