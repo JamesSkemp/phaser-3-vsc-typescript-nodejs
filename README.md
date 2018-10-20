@@ -35,7 +35,7 @@ Next run `npm install` in the root directory to install the various dependencies
 
 Run `gulp` after modifying code to populate the **public** directory with the final site contents.
 
-If you'd like to run a simple web server, install http-server via `npm install http-server -g`, which can then be run from the dist directory by running `http-server`.
+If you'd like to run a simple web server, install http-server via `npm install http-server -g`, which can then be run from the public directory by running `http-server`.
 
 ## Upgrading Phaser
 To upgrade Phaser 3 run `npm upgrade phaser` (passing `--save` if you wish to update the package.json).

@@ -22,7 +22,7 @@ var paths = {
 
 gulp.task("copy-html", function () {
 	return gulp.src(paths.content, { base: "src" })
-		.pipe(gulp.dest('dist'));
+		.pipe(gulp.dest('public'));
 });
 
 gulp.task("copy-phaser", function () {
@@ -70,5 +70,5 @@ gulp.task("default", ["copy-html", "copy-phaser"], function () {
 		.bundle()
 		.pipe(source('app.js'))
 		.pipe(buffer())
-		.pipe(gulp.dest('dist'));
+		.pipe(gulp.dest('public'));
 });
