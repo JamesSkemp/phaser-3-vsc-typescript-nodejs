@@ -1,3 +1,6 @@
+# build directories
+public/
+# legacy
 build/
 dist/
 

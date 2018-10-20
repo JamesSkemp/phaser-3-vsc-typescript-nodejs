@@ -27,7 +27,7 @@ gulp.task("copy-html", function () {
 
 gulp.task("copy-phaser", function () {
 	return gulp.src("./node_modules/phaser/dist/phaser.min.js")
-		.pipe(gulp.dest('dist/lib'));
+		.pipe(gulp.dest('public/lib'));
 });
 
 gulp.task("default2", ["copy-html", "copy-phaser"], function (cb) {
@@ -51,7 +51,7 @@ gulp.task("default2", ["copy-html", "copy-phaser"], function (cb) {
 				toplevel: false,
 				ie8: false,
 			}),*/
-			gulp.dest('dist')
+			gulp.dest('public')
 		], cb
 	);
 	return;
