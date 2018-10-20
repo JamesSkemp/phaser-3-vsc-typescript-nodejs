@@ -1,0 +1,26 @@
+{
+	"extends": "tslint:recommended",
+	"rules": {
+		"indent": [true, "tabs"],
+		"max-line-length": false,
+		"no-consecutive-blank-lines": true,
+		"object-literal-sort-keys": false,
+		"ordered-imports": false,
+		"trailing-comma": false,
+
+		"new-parens": true,
+		"no-console": {
+			"severity": "warning",
+			"options": [
+				"debug",
+				"info",
+				"log",
+				"time",
+				"timeEnd",
+				"trace"
+			]
+		}
+	},
+	"jsRules": {
+	}
+}

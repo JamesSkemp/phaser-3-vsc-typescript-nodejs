@@ -1,6 +1,7 @@
 {
 	"compilerOptions": {
 		"target": "es5",
-		"rootDir": "./src/ts/"
+		"rootDir": "./src/ts/",
+		"sourceMap": true
 	}
 }
