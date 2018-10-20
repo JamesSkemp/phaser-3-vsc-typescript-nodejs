@@ -49,5 +49,8 @@ module.exports = {
 			to: 'assets',
 			ignore: [ '*.md' ]
 		}])
-	  ]
+	],
+	devServer: {
+		open: true
+	}
 };
