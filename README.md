@@ -41,7 +41,7 @@ To build this project you'll need [Node.js](https://nodejs.org) installed.
 
 Next run `npm install` in the root directory to install the various dependencies.
 
-Run `npm run build` after modifying code to populate the **public** directory with the final site contents. You can instead run `npm run build-dev` to build the JavaScript in development mode.
+Run `npm run build` after modifying code to populate the **public** directory with the final site contents. You can instead run `npm run build-dev` to build the JavaScript in development mode, or `npm run start:dev` to run an automatically updating instance.
 
 If you'd like to run a simple web server, install http-server via `npm install http-server -g`, which can then be run from the public directory by running `http-server`.
 

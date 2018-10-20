@@ -18,7 +18,8 @@
 	},
 	"scripts": {
 		"build": "webpack --mode production",
-		"build-dev": "webpack --mode none"
+		"build-dev": "webpack --mode none",
+		"start:dev": "webpack-dev-server --mode production"
 	},
 	"devDependencies": {
 		"clean-webpack-plugin": "^0.1.19",
@@ -27,6 +28,7 @@
 		"tslint": "^5.11.0",
 		"typescript": "^3.0.3",
 		"webpack": "^4.21.0",
-		"webpack-cli": "^3.1.2"
+		"webpack-cli": "^3.1.2",
+		"webpack-dev-server": "^3.1.9"
 	}
 }
