@@ -1,0 +1,20 @@
+image: node:latest
+
+cache:
+  paths:
+  - node_modules/
+
+pages:
+  cache:
+    paths:
+    - node_modules/
+
+  script:
+  - npm install typescript -g
+  - npm install
+  - npm run build
+  artifacts:
+    paths:
+    - public
+  only:
+    - master

@@ -1,0 +1,8 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+[*.{ts,tsx}]
+indent_style = tab
+trim_trailing_whitespace = true

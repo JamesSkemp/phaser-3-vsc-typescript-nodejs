@@ -2,7 +2,7 @@
 
 The following is a starter project to get started with a new game in Phaser 3 and Visual Studio Code, using TypeScript and NodeJS.
 
-## What this Provides
+## What this Project Provides
 
 - src
 	- assets
@@ -29,6 +29,10 @@ The following is a starter project to get started with a new game in Phaser 3 an
 	- This file contains the default TSLint configuration. See [Configuring TSLint](https://palantir.github.io/tslint/usage/configuration/) for more information.
 - webpack.config.js
 	- This file contains the default webpack configuration.
+- .editorconfig
+	- "EditorConfig helps developers define and maintain consistent coding styles between different editors and IDEs." See https://editorconfig.org/
+- .gitlab-ci.yml
+	- Adds support to build and host your site on [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/).
 - .vscode/tasks.json
 	- Used by Visual Studio Code when running the build task.
 
