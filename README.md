@@ -2,7 +2,7 @@
 
 The following is a starter project to get started with a new game in Phaser 3 and Visual Studio Code, using TypeScript and NodeJS.
 
-## What this Project Provides
+## What This Project Provides
 
 - src
 	- assets
