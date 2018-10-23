@@ -1,4 +1,5 @@
 import MainMenu from "./MainMenu";
+import Utilities from "../Utilities";
 
 export default class Preloader extends Phaser.Scene {
 	/**
@@ -6,16 +7,16 @@ export default class Preloader extends Phaser.Scene {
 	 */
 	public static Name: string = "Preloader";
 
-	preload(): void {
+	public preload(): void {
 		this.load.path = "assets/";
 	}
 
-	create(): void {
-		console.log((new Date()).toISOString() + " : Entered Preloader create()");
+	public create(): void {
+		Utilities.LogSceneMethodEntry("Preloader", "create");
 
 		this.scene.start(MainMenu.Name);
 	}
 
-	update(): void {
+	public update(): void {
 	}
 }
