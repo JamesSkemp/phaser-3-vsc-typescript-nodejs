@@ -7,8 +7,7 @@ export default class MainMenu extends Phaser.Scene {
 	public static Name: string = "MainMenu";
 
 	public preload(): void {
-		this.load.path = "assets/";
-		this.load.image("Phaser-Logo-Small");
+		// Preload as needed.
 	}
 
 	public create(): void {
@@ -18,5 +17,6 @@ export default class MainMenu extends Phaser.Scene {
 	}
 
 	public update(): void {
+		// Update logic, as needed.
 	}
 }
