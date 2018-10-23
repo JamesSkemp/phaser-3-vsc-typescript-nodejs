@@ -1,4 +1,4 @@
-import MainMenu from "./MainMenu";
+import SplashScreen from "./SplashScreen";
 import Utilities from "../Utilities";
 
 export default class Preloader extends Phaser.Scene {
@@ -9,12 +9,13 @@ export default class Preloader extends Phaser.Scene {
 
 	public preload(): void {
 		this.load.path = "assets/";
+		this.load.image("phaser_pixel_medium_flat");
 	}
 
 	public create(): void {
 		Utilities.LogSceneMethodEntry("Preloader", "create");
 
-		this.scene.start(MainMenu.Name);
+		this.scene.start(SplashScreen.Name);
 	}
 
 	public update(): void {

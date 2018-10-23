@@ -2,6 +2,7 @@ import * as phaser from "phaser";
 import Boot from "./Scenes/Boot";
 import Preloader from "./Scenes/Preloader";
 import MainMenu from "./Scenes/MainMenu";
+import SplashScreen from "./Scenes/SplashScreen";
 import Utilities from "./Utilities";
 
 const gameConfig: GameConfig = {
@@ -20,6 +21,7 @@ export default class Game extends Phaser.Game {
 
 		this.scene.add(Boot.Name, Boot);
 		this.scene.add(Preloader.Name, Preloader);
+		this.scene.add(SplashScreen.Name, SplashScreen);
 		this.scene.add(MainMenu.Name, MainMenu);
 		this.scene.start(Boot.Name);
 	}
