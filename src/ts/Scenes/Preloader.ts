@@ -7,11 +7,11 @@ export default class Preloader extends Phaser.Scene {
 	public static Name: string = "Preloader";
 
 	preload(): void {
-		this.load.path = 'assets/';
+		this.load.path = "assets/";
 	}
 
 	create(): void {
-		console.log((new Date).toISOString() + ' : Entered Preloader create()');
+		console.log((new Date()).toISOString() + " : Entered Preloader create()");
 
 		this.scene.start(MainMenu.Name);
 	}
