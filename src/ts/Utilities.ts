@@ -12,7 +12,7 @@ export default class Utilities {
 	 * @param sceneName Name of the scene.
 	 * @param method Method called within the scene.
 	 */
-	public static LogSceneMethodEntry(sceneName: string, method: string) {
+	public static LogSceneMethodEntry(sceneName: string, method: string): void {
 		this.Log("Entered " + sceneName + " " + method + "()");
 	}
 }
