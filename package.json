@@ -23,12 +23,12 @@
 	},
 	"devDependencies": {
 		"clean-webpack-plugin": "^0.1.19",
-		"copy-webpack-plugin": "^4.5.4",
-		"ts-loader": "^5.2.2",
-		"tslint": "^5.11.0",
-		"typescript": "^3.0.3",
-		"webpack": "^4.21.0",
-		"webpack-cli": "^3.1.2",
-		"webpack-dev-server": "^3.1.9"
+		"copy-webpack-plugin": "^4.6.0",
+		"ts-loader": "^5.3.3",
+		"tslint": "^5.12.1",
+		"typescript": "^3.2.4",
+		"webpack": "^4.29.0",
+		"webpack-cli": "^3.2.1",
+		"webpack-dev-server": "^3.1.14"
 	}
 }
