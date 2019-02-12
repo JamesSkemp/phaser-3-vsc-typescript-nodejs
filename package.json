@@ -22,7 +22,7 @@
 		"start:dev": "webpack-dev-server --mode production"
 	},
 	"devDependencies": {
-		"clean-webpack-plugin": "^0.1.19",
+		"clean-webpack-plugin": "^1.0.1",
 		"copy-webpack-plugin": "^4.6.0",
 		"ts-loader": "^5.3.3",
 		"tslint": "^5.12.1",
