@@ -48,6 +48,6 @@ Run `npm run build` after modifying code to populate the **public** directory wi
 If you'd like to run a simple web server, install http-server via `npm install http-server -g`, which can then be run from the public directory by running `http-server`.
 
 ## Upgrading Phaser
-To upgrade Phaser 3 run `npm upgrade phaser` (passing `--save` if you wish to update the package.json).
+To upgrade Phaser 3 run `npm upgrade phaser`.
 
 Phaser TypeScript definitions can currently be found at https://github.com/photonstorm/phaser3-docs/tree/master/typescript
