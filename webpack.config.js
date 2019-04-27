@@ -24,7 +24,7 @@ module.exports = {
 	},
 	devtool: "source-map",
 	plugins: [
-		new CleanWebpackPlugin(['public']),
+		new CleanWebpackPlugin(),
 		new CopyWebpackPlugin([{
 			from: './node_modules/phaser/dist/phaser.min.js',
 			to: 'lib'
