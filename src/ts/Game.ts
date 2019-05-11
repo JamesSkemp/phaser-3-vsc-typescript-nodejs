@@ -1,11 +1,10 @@
-import * as phaser from "phaser";
 import Boot from "./Scenes/Boot";
 import Preloader from "./Scenes/Preloader";
 import MainMenu from "./Scenes/MainMenu";
 import SplashScreen from "./Scenes/SplashScreen";
 import Utilities from "./Utilities";
 
-const gameConfig: GameConfig = {
+const gameConfig: Phaser.Types.Core.GameConfig = {
 	width: 800,
 	height: 600,
 	type: Phaser.AUTO,
@@ -14,7 +13,7 @@ const gameConfig: GameConfig = {
 };
 
 export default class Game extends Phaser.Game {
-	constructor(config: GameConfig) {
+	constructor(config: Phaser.Types.Core.GameConfig) {
 		Utilities.LogSceneMethodEntry("Game", "constructor");
 
 		super(config);

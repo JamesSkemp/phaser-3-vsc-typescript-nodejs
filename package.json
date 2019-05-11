@@ -14,7 +14,7 @@
 	},
 	"homepage": "https://github.com/JamesSkemp/phaser-starter-templates",
 	"dependencies": {
-		"phaser": "^3.16.2"
+		"phaser": "^3.17.0"
 	},
 	"scripts": {
 		"build": "webpack --mode production",
