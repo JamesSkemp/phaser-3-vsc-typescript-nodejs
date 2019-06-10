@@ -2,7 +2,7 @@
 
 The following is a starter project to get started with a new game in Phaser 3 and Visual Studio Code, using TypeScript and NodeJS.
 
-> Since Phaser 3 does not yet bundle the TypeScript defintions, if you are copying this directory you will also need to copy the Phaser defintions file one directory level up.
+> If using GitHub, you can use the **Use this template** button to create a new Phaser 3 project from this starter template.
 
 ## What This Project Provides
 
@@ -49,5 +49,3 @@ If you'd like to run a simple web server, install http-server via `npm install h
 
 ## Upgrading Phaser
 To upgrade Phaser 3 run `npm upgrade phaser`.
-
-Phaser TypeScript definitions can currently be found at https://github.com/photonstorm/phaser3-docs/tree/master/typescript
