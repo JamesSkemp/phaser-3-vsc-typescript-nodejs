@@ -1,10 +1,10 @@
 {
-	"name": "starter-v3-vsc-ts-node",
+	"name": "phaser-3-vsc-typescript-nodejs",
 	"version": "0.0.1",
 	"description": "Starter Project for Phaser 3 with TypeScript, NodeJS, and VS Code.",
 	"repository": {
 		"type": "git",
-		"url": "git+ssh://git@github.com:JamesSkemp/phaser-starter-templates.git"
+		"url": "git+ssh://git@github.com:JamesSkemp/phaser-3-vsc-typescript-nodejs.git"
 	},
 	"private": true,
 	"author": {
@@ -12,7 +12,7 @@
 		"email": "strivinglife@gmail.com",
 		"url": "https://jamesrskemp.com"
 	},
-	"homepage": "https://github.com/JamesSkemp/phaser-starter-templates",
+	"homepage": "https://github.com/JamesSkemp/phaser-3-vsc-typescript-nodejs",
 	"dependencies": {
 		"phaser": "^3.17.0"
 	},
