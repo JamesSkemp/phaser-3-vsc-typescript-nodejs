@@ -3,6 +3,8 @@ import Preloader from "./Scenes/Preloader";
 import MainMenu from "./Scenes/MainMenu";
 import SplashScreen from "./Scenes/SplashScreen";
 import Utilities from "./Utilities";
+import MainGame from "./Scenes/MainGame";
+import MainSettings from "./Scenes/MainSettings";
 
 const gameConfig: Phaser.Types.Core.GameConfig = {
 	width: 800,
@@ -22,6 +24,8 @@ export default class Game extends Phaser.Game {
 		this.scene.add(Preloader.Name, Preloader);
 		this.scene.add(SplashScreen.Name, SplashScreen);
 		this.scene.add(MainMenu.Name, MainMenu);
+		this.scene.add(MainGame.Name, MainGame);
+		this.scene.add(MainSettings.Name, MainSettings);
 		this.scene.start(Boot.Name);
 	}
 }
