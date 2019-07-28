@@ -29,7 +29,7 @@
 			"\t}",
 			"",
 			"\tpublic create(): void {",
-			"\t\t// Add this new scene to ../Game.ts to be able to use it."
+			"\t\t// Add this new scene to ../Game.ts to be able to use it.",
 			"\t}",
 			"}",
 			""
