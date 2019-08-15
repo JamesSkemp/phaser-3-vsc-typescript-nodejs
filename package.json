@@ -14,7 +14,7 @@
 	},
 	"homepage": "https://github.com/JamesSkemp/phaser-3-vsc-typescript-nodejs",
 	"dependencies": {
-		"phaser": "^3.18.1"
+		"phaser": "^3.19.0"
 	},
 	"scripts": {
 		"build": "webpack --mode production",
@@ -27,8 +27,8 @@
 		"ts-loader": "^6.0.4",
 		"tslint": "^5.18.0",
 		"typescript": "^3.5.3",
-		"webpack": "^4.39.0",
+		"webpack": "^4.39.2",
 		"webpack-cli": "^3.3.6",
-		"webpack-dev-server": "^3.7.2"
+		"webpack-dev-server": "^3.8.0"
 	}
 }
