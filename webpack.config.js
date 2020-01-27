@@ -1,3 +1,4 @@
+/*global __dirname */
 const path = require('path');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
@@ -7,13 +8,11 @@ module.exports = {
 		app: './src/ts/Game.ts'
 	},
 	module: {
-		rules: [
-		{
+		rules: [{
 			test: /\.tsx?$/,
 			use: 'ts-loader',
 			exclude: /node_modules/
-		}
-		]
+		}]
 	},
 	resolve: {
 		extensions: [ '.tsx', '.ts', '.js' ]
