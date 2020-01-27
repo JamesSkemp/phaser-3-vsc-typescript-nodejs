@@ -27,8 +27,6 @@ The following is a starter project to get started with a new game in Phaser 3 an
 - tsconfig.json
 	- This file determines how TypeScript will compile the project.
 	- By default all TypeScript files will be compiled into a single app.js file in the root of the project.
-- tslint.json
-	- This file contains the default TSLint configuration. See [Configuring TSLint](https://palantir.github.io/tslint/usage/configuration/) for more information.
 - webpack.config.js
 	- This file contains the default webpack configuration.
 - .editorconfig
@@ -37,6 +35,7 @@ The following is a starter project to get started with a new game in Phaser 3 an
 	- This file sets which directories/files should not be parsed by eslint.
 - .eslintrc.js
 	- This file contains the starting eslint configurations. Base support for TypeScript is included.
+	- See ESLint [Rules](https://eslint.org/docs/rules/) for more information.
 - .gitlab-ci.yml
 	- Adds support to build and host your site on [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/).
 - .vscode/tasks.json
