@@ -33,6 +33,10 @@ The following is a starter project to get started with a new game in Phaser 3 an
 	- This file contains the default webpack configuration.
 - .editorconfig
 	- "EditorConfig helps developers define and maintain consistent coding styles between different editors and IDEs." See https://editorconfig.org/
+- .eslintignore
+	- This file sets which directories/files should not be parsed by eslint.
+- .eslintrc.js
+	- This file contains the starting eslint configurations. Base support for TypeScript is included.
 - .gitlab-ci.yml
 	- Adds support to build and host your site on [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/).
 - .vscode/tasks.json
@@ -46,6 +50,8 @@ Next run `npm install` in the root directory to install the various dependencies
 Run `npm run build` after modifying code to populate the **public** directory with the final site contents. You can instead run `npm run build-dev` to build the JavaScript in development mode, or `npm run start:dev` to run an automatically updating instance.
 
 If you'd like to run a simple web server, install http-server via `npm install http-server -g`, which can then be run from the public directory by running `http-server`.
+
+If you'd like to lint your TypeScript/JavaScript, run `npm run lint`.
 
 ## Upgrading Phaser
 To upgrade Phaser 3 run `npm upgrade phaser`.

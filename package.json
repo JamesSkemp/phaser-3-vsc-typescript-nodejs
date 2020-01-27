@@ -19,11 +19,15 @@
 	"scripts": {
 		"build": "webpack --mode production",
 		"build-dev": "webpack --mode none",
-		"start:dev": "webpack-dev-server --mode production"
+		"start:dev": "webpack-dev-server --mode production",
+		"lint": "eslint . --ext .js,.jsx,.ts,.tsx || true"
 	},
 	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^2.17.0",
+		"@typescript-eslint/parser": "^2.17.0",
 		"clean-webpack-plugin": "^3.0.0",
 		"copy-webpack-plugin": "^5.1.1",
+		"eslint": "^6.8.0",
 		"ts-loader": "^6.2.1",
 		"tslint": "^6.0.0",
 		"typescript": "^3.7.5",
