@@ -20,7 +20,7 @@
 		"build": "webpack --mode production",
 		"build-dev": "webpack --mode none",
 		"start:dev": "webpack-dev-server --mode production",
-		"lint": "eslint . --ext .js,.jsx,.ts,.tsx || true"
+		"lint": "eslint . --ext .js,.jsx,.ts,.tsx || (exit 0)"
 	},
 	"devDependencies": {
 		"@typescript-eslint/eslint-plugin": "^2.17.0",
