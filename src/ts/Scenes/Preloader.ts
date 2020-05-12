@@ -35,6 +35,8 @@ export default class Preloader extends Phaser.Scene {
 	private addProgressBar(): void {
 		const width = this.cameras.main.width;
 		const height = this.cameras.main.height;
+		/** Customizable. This text color will be used around the progress bar. */
+		const outerTextColor = '#ffffff';
 
 		const progressBar = this.add.graphics();
 		const progressBox = this.add.graphics();
@@ -47,7 +49,7 @@ export default class Preloader extends Phaser.Scene {
 			text: "Loading...",
 			style: {
 				font: "20px monospace",
-				fill: "#ffffff"
+				fill: outerTextColor
 			}
 		});
 		loadingText.setOrigin(0.5, 0.5);
@@ -69,7 +71,7 @@ export default class Preloader extends Phaser.Scene {
 			text: "",
 			style: {
 				font: "18px monospace",
-				fill: "#ffffff"
+				fill: outerTextColor
 			}
 		});
 
