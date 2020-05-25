@@ -24,30 +24,36 @@ module.exports = {
 	devtool: "source-map",
 	plugins: [
 		new CleanWebpackPlugin(),
-		new CopyWebpackPlugin([{
-			from: './node_modules/phaser/dist/phaser.min.js',
-			to: 'lib'
-		}]),
-		new CopyWebpackPlugin([{
-			from: './src/*.html',
-			to: path.resolve(__dirname, 'public'),
-			flatten: true
-		}]),
-		new CopyWebpackPlugin([{
-			from: './src/*.css',
-			to: path.resolve(__dirname, 'public'),
-			flatten: true
-		}]),
-		new CopyWebpackPlugin([{
-			from: './src/*.ico',
-			to: path.resolve(__dirname, 'public'),
-			flatten: true
-		}]),
-		new CopyWebpackPlugin([{
-			from: './src/assets',
-			to: 'assets',
-			ignore: [ '*.md' ]
-		}])
+		new CopyWebpackPlugin({
+			patterns: [
+				{
+					from: './node_modules/phaser/dist/phaser.min.js',
+					to: 'lib'
+				},
+				{
+					from: './src/*.html',
+					to: path.resolve(__dirname, 'public'),
+					flatten: true
+				},
+				{
+					from: './src/*.css',
+					to: path.resolve(__dirname, 'public'),
+					flatten: true
+				},
+				{
+					from: './src/*.ico',
+					to: path.resolve(__dirname, 'public'),
+					flatten: true
+				},
+				{
+					from: './src/assets',
+					to: 'assets',
+					globOptions: {
+						ignore: [ '*.md' ]
+					}
+				}
+			]
+		})
 	],
 	devServer: {
 		open: true
