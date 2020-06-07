@@ -5,7 +5,7 @@ export default class MainSettings extends Phaser.Scene {
 	/**
 	 * Unique name of the scene.
 	 */
-	public static Name: string = "MainSettings";
+	public static Name = "MainSettings";
 
 	public create(): void {
 		Utilities.LogSceneMethodEntry("MainSettings", "create");

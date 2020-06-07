@@ -6,7 +6,7 @@ export default class MainMenu extends Phaser.Scene {
 	/**
 	 * Unique name of the scene.
 	 */
-	public static Name: string = "MainMenu";
+	public static Name = "MainMenu";
 
 	public preload(): void {
 		// Preload as needed.

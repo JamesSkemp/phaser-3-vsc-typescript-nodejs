@@ -5,7 +5,7 @@ export default class SplashScreen extends Phaser.Scene {
 	/**
 	 * Unique name of the scene.
 	 */
-	public static Name: string = "SplashScreen";
+	public static Name = "SplashScreen";
 
 	public preload(): void {
 		this.load.path = "assets/";

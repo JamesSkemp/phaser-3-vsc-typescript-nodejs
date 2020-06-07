@@ -5,7 +5,7 @@ export default class Preloader extends Phaser.Scene {
 	/**
 	 * Unique name of the scene.
 	 */
-	public static Name: string = "Preloader";
+	public static Name = "Preloader";
 
 	public preload(): void {
 		this.addProgressBar();
@@ -27,6 +27,7 @@ export default class Preloader extends Phaser.Scene {
 	}
 
 	public update(): void {
+		// preload handles updates to the progress bar, so nothing should be needed here.
 	}
 
 	/**

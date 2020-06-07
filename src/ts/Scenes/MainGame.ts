@@ -4,9 +4,10 @@ export default class MainGame extends Phaser.Scene {
 	/**
 	 * Unique name of the scene.
 	 */
-	public static Name: string = "MainGame";
+	public static Name = "MainGame";
 
 	public preload(): void {
+		// Preload as needed.
 	}
 
 	public create(): void {
