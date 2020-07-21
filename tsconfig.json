@@ -4,6 +4,7 @@
 		"module": "commonjs",
 		"esModuleInterop": true,
 		"rootDir": "./src/ts/",
-		"sourceMap": true
+		"sourceMap": true,
+		"moduleResolution": "node"
 	}
 }

@@ -18,6 +18,9 @@ module.exports = {
 	resolve: {
 		extensions: [ '.tsx', '.ts', '.js' ]
 	},
+	externals: {
+		phaser: 'Phaser'
+	},
 	output: {
 		filename: 'app.js',
 		path: path.resolve(__dirname, 'public')
