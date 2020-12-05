@@ -23,14 +23,14 @@
 		"lint": "eslint . --ext .js,.jsx,.ts,.tsx || (exit 0)"
 	},
 	"devDependencies": {
-		"@typescript-eslint/eslint-plugin": "^4.1.1",
-		"@typescript-eslint/parser": "^4.1.1",
+		"@typescript-eslint/eslint-plugin": "^4.9.0",
+		"@typescript-eslint/parser": "^4.9.0",
 		"clean-webpack-plugin": "^3.0.0",
-		"copy-webpack-plugin": "^6.1.0",
-		"eslint": "^7.9.0",
-		"ts-loader": "^8.0.3",
-		"typescript": "^4.0.2",
-		"webpack": "^4.44.1",
+		"copy-webpack-plugin": "^6.3.2",
+		"eslint": "^7.15.0",
+		"ts-loader": "^8.0.11",
+		"typescript": "^4.1.2",
+		"webpack": "^4.44.2",
 		"webpack-cli": "^3.3.12",
 		"webpack-dev-server": "^3.11.0"
 	}
