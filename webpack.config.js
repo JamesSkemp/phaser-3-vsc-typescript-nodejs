@@ -36,18 +36,15 @@ module.exports = {
 				},
 				{
 					from: './src/*.html',
-					to: path.resolve(__dirname, 'public'),
-					flatten: true
+					to: '[name][ext]'
 				},
 				{
 					from: './src/*.css',
-					to: path.resolve(__dirname, 'public'),
-					flatten: true
+					to: '[name][ext]'
 				},
 				{
 					from: './src/*.ico',
-					to: path.resolve(__dirname, 'public'),
-					flatten: true
+					to: '[name][ext]'
 				},
 				{
 					from: './src/assets',
