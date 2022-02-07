@@ -56,6 +56,15 @@ module.exports = {
 			]
 		})
 	],
+	performance: {
+		assetFilter: function(assetFilename) {
+			let customExclusions = ['lib/phaser.min.js'];
+			if (customExclusions.includes(assetFilename)) {
+				return false;
+			}
+			return !/\.map$/.test(assetFilename);
+		}
+	},
 	devServer: {
 		open: true
 	}
