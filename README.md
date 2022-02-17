@@ -1,8 +1,17 @@
 # Starter Project for Phaser 3 with Visual Studio Code, TypeScript, and NodeJS
 
-The following is a starter project to get started with a new game in Phaser 3 and Visual Studio Code, using TypeScript and NodeJS.
+The following is a starter project to get started with a new game in Phaser 3 and [Visual Studio Code](https://code.visualstudio.com/), using TypeScript and NodeJS.
 
 > If using GitHub, you can use the **Use this template** button to create a new Phaser 3 project from this starter template.
+
+## Get Started
+
+1. Make sure [Node.js](https://nodejs.org) is installed.
+2. From a command line, run `npm install` in the root directory (same place this README.md file is).
+3. Next run `npm run start:dev` to start an automatically updating instance.
+4. Use the editor of your choice ([Visual Studio Code](https://code.visualstudio.com/) is a great choice) to start writing your game.
+5. Run `npm run build` to populate the **public** directory with the final site contents.
+6. Copy the contents of **public** to the site of your choice.
 
 ## What This Project Provides
 
@@ -21,7 +30,6 @@ The following is a starter project to get started with a new game in Phaser 3 an
 		- The `title` and `h1` elements should be updated to match the needs of your game.
 		- Includes a reference to the minified Phaser library.
 		- Also includes a reference to a JavaScript file, which the Visual Studio project is setup to output TypeScript files to, and which should be updated to match your needs.
-- gulpfile.js includes gulp tasks used to build the site.
 - package.json contains the Node packages used by this project.
 - README.md is this file, and should be replaced with whatever content is needed for your game.
 - tsconfig.json
@@ -46,7 +54,7 @@ To build this project you'll need [Node.js](https://nodejs.org) installed.
 
 Next run `npm install` in the root directory to install the various dependencies.
 
-Run `npm run build` after modifying code to populate the **public** directory with the final site contents. You can instead run `npm run build-dev` to build the JavaScript in development mode, or `npm run start:dev` to run an automatically updating instance.
+Run `npm run build` after modifying code to populate the **public** directory with the final site contents. You can instead run `npm run build-dev` to build the JavaScript in development mode, or `npm run start:dev` to start an automatically updating instance.
 
 If you'd like to run a simple web server, install http-server via `npm install http-server -g`, which can then be run from the public directory by running `http-server`.
 
