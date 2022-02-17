@@ -53,4 +53,12 @@ If you'd like to run a simple web server, install http-server via `npm install h
 If you'd like to lint your TypeScript/JavaScript, run `npm run lint`.
 
 ## Upgrading Phaser
-To upgrade Phaser 3 run `npm upgrade phaser`.
+To upgrade Phaser 3 run `npm upgrade --save phaser`.
+
+## Upgrading Other Packages
+
+ESLint:
+
+> `npm upgrade --save eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser`
+
+Once done, run `npm run lint` to verify everything is still working as expected.
